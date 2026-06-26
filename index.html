@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Someone Special ❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/memories.css">
+    <link rel="stylesheet" href="css/celebration.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+
+    <button id="musicBtn">
+    🎵 Play Music
+</button>
+
+<audio id="bgMusic" loop>
+    <source src="assets/music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<!-- =========================
+        NIGHT SKY
+========================= -->
+
+<div id="sky">
+
+    <div id="moon"></div>
+
+    <div id="stars"></div>
+
+    <div id="cloud1" class="cloud"></div>
+    <div id="cloud2" class="cloud"></div>
+
+</div>
+
+<!-- =========================
+        LANDING PAGE
+========================= -->
+
+<main class="hero">
+
+    <span class="tag">
+        ✨ For Someone Very Special
+    </span>
+
+    <h1>
+        Something Beautiful
+        <br>
+        is Waiting...
+    </h1>
+
+    <div id="countdown">
+
+        <div class="card">
+            <span id="days">00</span>
+            <small>Days</small>
+        </div>
+
+        <div class="card">
+            <span id="hours">00</span>
+            <small>Hours</small>
+        </div>
+
+        <div class="card">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+        </div>
+
+        <div class="card">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+        </div>
+
+    </div>
+
+    <p class="subtitle">
+        Every second brings us closer
+        <br>
+        to your special day.
+    </p>
+
+    <div class="scrollHint">
+        ↓
+    </div>
+
+</main>
+
+<!-- =========================
+        MEMORIES
+========================= -->
+
+<section id="memories"></section>
+
+<!-- =========================
+      CELEBRATION
+========================= -->
+
+<section id="celebration">
+
+    <div id="balloons"></div>
+
+    <div class="celebration-text">
+
+        <h1>Happy Birthday Anushka 🎉</h1>
+
+        <p>Today is all about you ❤️</p>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CAKE
+========================= -->
+
+<section id="cakeSection">
+
+    <img
+        src="assets/cake.png"
+        id="cake"
+        alt="Birthday Cake"
+    >
+
+    <p id="cakeText">
+
+        Make a wish... ✨
+
+        <br>
+
+        Tap the candle 🕯️
+
+    </p>
+
+</section>
+
+
+
+<!-- =========================
+        LETTERS
+========================= -->
+
+<section class ="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 1 of 7</span>
+
+        <h2>Before Anything Else</h2>
+
+        <p>
+            If you've reached this part...
+            Then thank you.
+            It means you stayed through every photo, every little animation, every memory, and every second of this small journey.
+            That makes me happier than you probably realize.
+            This page was never just about coding.
+            It was about creating something that could make you smile.
+            If it managed to do that...
+            then this little surprise has already done everything I hoped it would.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 2 of 7</span>
+
+        <h2>Why I Made This</h2>
+
+        <p>
+
+            Flowers eventually dry.
+
+
+            Chocolates disappear.
+
+
+            Gifts slowly become old.
+
+
+            But memories...
+
+            stay.
+
+
+            So instead of buying you something...
+
+            I wanted to build something.
+
+
+            A place where these moments could stay alive.
+
+
+            Because sometimes,
+
+            things made with time become more valuable than things bought with money.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 3 of 7</span>
+
+        <h2>About You</h2>
+
+        <p>
+
+            Some people make noise wherever they go.
+
+
+            You somehow bring peace.
+
+
+
+            Your smile changes the atmosphere more than you probably realize.
+
+            
+
+            Your kindness has always felt effortless.
+
+
+            Those little things...
+
+            are far more beautiful than appearances.
+
+          
+
+            I hope you never lose that part of yourself.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 4 of 7</span>
+
+        <h2>The Memories</h2>
+
+        <p>
+
+            Every picture you saw before reaching this page was chosen for a reason.
+
+
+
+            Not because it was perfect...
+
+            but because it reminds me that even ordinary days can become unforgettable.
+
+
+            Some memories lasted only a few seconds.
+
+
+            Yet somehow...
+
+            they stayed.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 5 of 7</span>
+
+        <h2>What I Wish For You</h2>
+
+        <p>
+
+            I hope life surprises you in the best possible ways.
+
+
+            I hope your dreams slowly become your reality.
+
+
+            I hope your smile never becomes something you have to force.
+
+
+            I hope you always find people who truly appreciate you.
+
+
+            And I hope this year becomes one of your happiest.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 6 of 7</span>
+
+        <h2>One Honest Truth</h2>
+
+        <p>
+
+            I don't know what life has planned for either of us.
+
+
+            Maybe our paths stay together.
+
+            Maybe they don't.
+
+
+            But regardless of where life takes us...
+
+            I'm genuinely grateful that our paths crossed.
+
+
+            Some people become beautiful chapters simply by existing.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="letters">
+
+    <div class="letter-card">
+
+        <span class="pageNo">Page 7 of 7</span>
+
+        <h2>Until The Next Birthday...</h2>
+
+        <p>
+
+            If you're reading these final lines...
+
+            then my little surprise has finally reached its destination.
+
+
+            Maybe years from now...
+
+            you'll open this page again.
+
+
+            Maybe you'll smile.
+
+
+            If that happens...
+
+            every hour spent making this website will have been worth it.
+
+
+            Happy Birthday, Anushka ❤️
+
+
+            Thank you for being part of this little story.
+
+
+            <strong>— Gourav</strong>
+
+        </p>
+
+    </div>
+
+</section>
+
+<div id="confetti"></div>
+
+<!-- =========================
+      JAVASCRIPT
+========================= -->
+
+<script src="js/script.js"></script>
+<script src="js/memories.js"></script>
+<script src="js/celebration.js"></script>
+
+</body>
+</html>
